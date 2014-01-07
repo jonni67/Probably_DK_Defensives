@@ -15,7 +15,7 @@ ProbablyEngine.rotation.register_custom(250, "DK Defensives", {
 
   -- Death Pact Macro
   { "!/cast Raise Dead\n/cast Death Pact", {
-    "player.health < 35",
+    "player.health < 20",
     "player.spell.cooldown(Death Pact)",
     "player.spell.cooldown(Raise Dead)",
     "player.spell.usable(Death Pact)"
